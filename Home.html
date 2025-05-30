@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+	<!--Navigation Bar-->
+    <link rel="stylesheet" href="css/navbar.css">
+    <title>Home</title>
+	<script>
+	function openNav() {
+	  document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	function closeNav() {
+	  document.getElementById("mySidenav").style.width = "0";
+	}
+	</script>
+  </head>
+  <body>
+  <div class="content">
+    
+    <div class="container">
+      <h2 class="mb-5" >Better Limited online sales system</h2>
+      
+
+      <div class="table-responsive custom-table-responsive">
+	  
+		<form method="POST" action="php/Login.php">
+		<fieldset>
+		Staff ID: <input type="text" name="tfStaffID" required = "required" placeholder = "Enter your Staff ID"/></br>
+		</br>
+		Password: <input type="password" name="tfPassword" required = "required" placeholder="Enter Your Password"/></br>
+		
+		
+		<input type="reset" value="Cancel" class="button"/>
+		<input type="submit" value="Login" class="button" />
+		
+		</br>
+		</fieldset>
+		</form>
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>
