@@ -59,7 +59,3 @@ This Sales-Order Management System is a web application designed to streamline t
 - **Import Database:** Use phpMyAdmin (or a MySQL client) to import the `createProjectDB.sql` file.
 - **Configure (if needed):** Adjust the database connection parameters in your PHP files (e.g., in `php/conn.php`) if your database credentials differ.
 - **Access the Application:** Open a browser and navigate to `http://localhost/Sales-Order_Management_System/Home.html`.
-
-## Conclusion
-
-This README is tailored for a company presentation, highlighting the project's overview, features, tech stack, and setup instructions (both for local development and deployment). It omits sections on contributors, license, or contact info as per your request.
